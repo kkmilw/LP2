@@ -1,0 +1,79 @@
+/*
+
+
+1 - Escreva qual a funcionalidade de 5 métodos da Interface List. Faça um programa Java que demonstre o funcionamento dos 5 métodos que foram escolhidos.
+
+
+get: recupera o objeto de determinada posição da lista 
+
+remove: remove o objeto de determinada posição da lista 
+
+indexOf: retorna o índice da primeira ocorrência de um objeto ou –1 se ele 
+não existir na lista. 
+
+lastIndexOf: retorna o índice da última ocorrência de um objeto ou –1 se 
+ele não existir na lista. 
+
+set: substitui o objeto da posição do índice pelo novo objeto. 
+
+
+2 - Escreva qual a funcionalidade de 5 métodos da Interface Set. Faça um programa Java que demonstre o funcionamento dos 5 métodos que foram escolhidos.
+
+add: adiciona objetos especificos ao set 
+
+addAll: adiciona todos os objetos especificos da coleção no set 
+
+clear: remove todos os elementos do set
+
+contains: retorna true se contem o objeto no set
+
+hashCode: retorna o valor do hash code do elemento do set
+
+3 - Escreva qual é a funcionalidade da classe Objects. Em qual versão da linguagem Java foi incluída a classe Objects. Faça um programa Java que demonstre o funcionamento da classe Objects.
+
+Essa classe consiste em métodos utilitários estáticos para operar em objetos. Esses utilitários incluem métodos null-safe 
+ou null-tolerant para calcular o código hash de um objeto, retornando uma string para um objeto e comparando dois objetos.
+
+Foi incluida na versão 1.7 do Java.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */

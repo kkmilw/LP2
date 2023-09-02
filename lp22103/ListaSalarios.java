@@ -1,0 +1,39 @@
+package aula2103;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ListaSalarios {
+	
+	public static void main(String args[]) {
+		
+	ArrayList<Double> salarios = new ArrayList<Double>();
+	ArrayList<Double> salariosReajustados = new ArrayList<Double>();
+
+	try (Scanner scan = new Scanner(System.in)) {
+		Double salario = 0.0;
+		Double reajuste = 0.0;
+		
+		do {
+			System.out.println("Digite um salario. Caso deseje parar de adicionar, digite -1.");
+			salario = scan.nextDouble();
+			if(salario > 0) {
+			salarios.add(salario);
+			}
+		} while (salario > 0.0);
+		
+		if (!salarios.isEmpty()) {
+		System.out.println("Digite o valor de reajuste dos salarios inseridos");
+		reajuste = scan.nextDouble();
+		}
+		
+		for (Double sal : salarios) {
+			salariosReajustados.add(sal+reajuste);
+		}
+	}
+	System.out.println("\nSalarios reajustados:");
+	for (Double salarioReajustado : salariosReajustados) {
+		System.out.println(salarioReajustado);
+	}
+}
+}
+

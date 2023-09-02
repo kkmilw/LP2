@@ -1,0 +1,31 @@
+
+public class TesteList {
+	
+	public static void main (String args[]) {
+
+		FuncionalidadesList lista = new FuncionalidadesList();
+		
+		lista.carregaLista();
+		
+		lista.mostraLista();
+		
+		Aluno aluno = new Aluno("Camilo", "12413");
+		Aluno aluno2 = new Aluno("Camilo2", "12413");
+		
+		lista.adicionaAluno(aluno);
+		lista.adicionaAluno(aluno2);
+		
+		lista.indexAluno(aluno);
+		
+		lista.getAluno(2);
+		
+		lista.lastIndexAluno(aluno2);
+		
+		lista.setAluno(1, aluno);
+		
+		lista.mostraLista();
+		
+	}
+	
+}
+
