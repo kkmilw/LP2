@@ -1,0 +1,107 @@
+string[] alunos = new string[5]{ "Renato", "Helenita", "poliana", "Renata", "Vanessa"};
+for (int i = 0; i < 5; i++)
+  Console.WriteLine(alunos[i]);
+
+-------------------------------------
+
+string[] alunos = new string[5]{ "Renato", "Helenita", "poliana", "Renata", "Vanessa"};
+foreach (var aluno in alunos)
+Console.WriteLine(aluno);
+
+-------------------------------------
+
+string aulaIntro = "Introdução às Coleções";
+string aulaModelando = "Modelando a Classe Aula";
+string aulaSets = "Trabalhando com Conjuntos";
+
+string[] aulas = new string[3];
+aulas[0] = aulaIntro;
+aulas[1] = aulaModelando;
+aulas[2] = aulaSets;
+
+Console.WriteLine(aulas);
+
+foreach(var aula in aulas)
+
+Console.WriteLine(aula);
+
+-------------------------------------
+
+string aulaIntro = "Introdução às Coleções";
+string aulaModelando = "Modelando a Classe Aula";
+string aulaSets = "Trabalhando com Conjuntos";
+
+string[] aulas = new string[3];
+aulas[0] = aulaIntro;
+aulas[1] = aulaModelando;
+aulas[2] = aulaSets;
+
+Console.WriteLine(aulas);
+
+for(int i = 0; i < aulas.Length; i++){
+
+Console.WriteLine(aulas[i]);}
+
+Console.WriteLine("Aula modelando está no índice " + Array.IndexOf(aulas, aulaModelando));
+
+Console.WriteLine(Array.LastIndexOf(aulas, aulaModelando));
+
+-------------------------------------
+Double num1 = 0; Double num2 = 0;
+
+Console.WriteLine("Digite um número, e pressione Enter");
+num1 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Digite um número, e pressione Enter");
+num2 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine ("Escolha uma opção da lista seguinte: ");
+Console.WriteLine ("\ta - Soma");
+Console.WriteLine ("\ts - Sbtração");
+Console.WriteLine ("\tm - Multiplicação");
+Console.WriteLine ("\td - Divisão");
+Console.Write ("Qual sua opção? ");
+
+switch (Console.ReadLine()) {
+    case "a": 
+    Console.WriteLine ($"Seu resultado: {num1} + {num2} = " + (num1 + num2));
+    break;
+    case "s":
+    Console.WriteLine ($"Seu resultado: {num1} - {num2} = " + (num1 - num2));
+    break;
+    case "m":
+    Console.WriteLine ($"Seu resultado: {num1} * {num2} = " + (num1 * num2));
+    break;
+    case "d":
+    Console.WriteLine ($"Seu resultado: {num1} / {num2} = " + (num1 / num2));
+    break;
+}
+Console.WriteLine("Digite um número, e pressione Enter");
+num1 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Digite um número, e pressione Enter");
+num2 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine ("Escolha uma opção da lista seguinte: ");
+Console.WriteLine ("\ta - Soma");
+Console.WriteLine ("\ts - Sbtração");
+Console.WriteLine ("\tm - Multiplicação");
+Console.WriteLine ("\td - Divisão");
+Console.Write ("Qual sua opção? ");
+
+switch (Console.ReadLine()) {
+    case "a": 
+    Console.WriteLine ($"Seu resultado: {num1} + {num2} = " + (num1 + num2));
+    break;
+    case "s":
+    Console.WriteLine ($"Seu resultado: {num1} - {num2} = " + (num1 - num2));
+    break;
+    case "m":
+    Console.WriteLine ($"Seu resultado: {num1} * {num2} = " + (num1 * num2));
+    break;
+    case "d":
+    Console.WriteLine ($"Seu resultado: {num1} / {num2} = " + (num1 / num2));
+    break;
+}
+
+----------------------------------------------
